@@ -1,0 +1,150 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Data table</h4>
+        <div class="row">
+            <div class="col-12">
+                <div class="table-responsive">
+                    <div id="order-listing_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer">
+
+                        <form method="POST"> {% csrf_token %}
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6  ">
+                                    <a href='/master/traininglead_add'>
+                                        <button class="btn btn-primary">+Add new</button>
+                                    </a>
+                                </div>
+
+                                <div class="col-sm-12 col-md-6">
+                                    <div id="order-listing_filter" class="dataTables_filter"><label><input type="search"
+                                                                                                           class="form-control"
+                                                                                                           placeholder="Search"
+                                                                                                           aria-controls="order-listing"></label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-12 col-md-6">
+                                    <label for="from">From :</label><input type="date" class="form-control"
+                                                                           id="from" name="from" required>
+                                    <br><label for="to">To : </label><input type="date" id="to" class="form-control"
+                                                                            name="to" required>
+                                </div>
+                                <div class="form-group col-sm-12 col-md-6"><br><br>
+                                    <label for="follow"><input type="checkbox" id="follow"
+                                                               name="follow"> Follow Up Only</label><br><br><br>
+                                    <button class="btn btn-outline-primary" type="submit">Filter</button>
+                                </div>
+
+
+                            </div>
+                        </form>
+                        <form method="POST">{% csrf_token %}
+                            {% for traininglead in traininglead %}
+                            <input type="text" value="{{ traininglead.id }}" name="export" hidden>
+                            {% endfor %}
+                            <button type="submit">Export</button>
+                        </form>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <table id="order-listing" class="table dataTable no-footer" role="grid"
+                                       aria-describedby="order-listing_info" border="1">
+                                    <thead>
+                                    <tr role="row">
+                                        <th class="sorting_asc" tabindex="0" aria-controls="order-listing" rowspan="1"
+                                            colspan="1" style="width: 55.4167px;" aria-sort="ascending"
+                                            aria-label="Order #: activate to sort column descending">Name
+                                        </th>
+                                        <th class="sorting" tabindex="0" aria-controls="order-listing" rowspan="1"
+                                            colspan="1" style="width: 99.5833px;"
+                                            aria-label="Purchased On: activate to sort column ascending">Institution
+                                        </th>
+                                        <th class="sorting" tabindex="0" aria-controls="order-listing" rowspan="1"
+                                            colspan="1" style="width: 99.5833px;"
+                                            aria-label="Purchased On: activate to sort column ascending">Cource
+                                        </th>
+                                        <th class="sorting" tabindex="0" aria-controls="order-listing" rowspan="1"
+                                            colspan="1" style="width: 88px;"
+                                            aria-label="Customer: activate to sort column ascending">Mobile
+                                        </th>
+                                        <th class="sorting" tabindex="0" aria-controls="order-listing" rowspan="1"
+                                            colspan="1" style="width: 88px;"
+                                            aria-label="Customer: activate to sort column ascending">Enquiry Date
+                                        </th>
+                                        <th class="sorting" tabindex="0" aria-controls="order-listing" rowspan="1"
+                                            colspan="1" style="width: 88px;"
+                                            aria-label="Customer: activate to sort column ascending">Enqiry For
+                                        </th>
+                                        <th class="sorting" tabindex="0" aria-controls="order-listing" rowspan="1"
+                                            colspan="1" style="width: 88px;"
+                                            aria-label="Customer: activate to sort column ascending">Follow Up
+                                        </th>
+
+
+                                    </tr>
+                                    </thead>
+                                    {% for traininglead in traininglead %}
+                                    <tr role="row" class="odd">
+                                        <td class="sorting_1">{{ traininglead.name }}</td>
+                                        <td>{{ traininglead.institution }}</td>
+                                        <td>{{ traininglead.course }}</td>
+                                        <td>{{ traininglead.mobile }}</td>
+                                        <td>{{ traininglead.enquery_date }}</td>
+                                        <td>{{ traininglead.enquery_for }}</td>
+                                        <td>{{ traininglead.followup }}</td>
+                                        <td>
+                                            <a href=/master/traininglead_followup/{{ traininglead.id }}>
+                                                <button class="btn btn-outline-warning">Follow Up</button>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href=/master/traininglead_edit/{{ traininglead.id }}>
+                                                <button class="btn btn-outline-primary">Edit</button>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href=/master/traininglead_delete/{{ traininglead.id }}>
+                                                <button class="btn btn-outline-danger">Delete</button>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    {% endfor%}
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-5">
+                                <div class="dataTables_info" id="order-listing_info" role="status" aria-live="polite">
+                                    Showing 1 to 10 of 10 entries
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-7">
+                                <div class="dataTables_paginate paging_simple_numbers" id="order-listing_paginate">
+                                    <ul class="pagination">
+                                        <li class="paginate_button page-item previous disabled"
+                                            id="order-listing_previous">
+                                            <a href="#" aria-controls="order-listing" data-dt-idx="0" tabindex="0"
+                                               class="page-link">Previous</a></li>
+                                        <li class="paginate_button page-item active"><a href="#"
+                                                                                        aria-controls="order-listing"
+                                                                                        data-dt-idx="1" tabindex="0"
+                                                                                        class="page-link">1</a></li>
+                                        <li class="paginate_button page-item next disabled" id="order-listing_next"><a
+                                                href="#" aria-controls="order-listing" data-dt-idx="2" tabindex="0"
+                                                class="page-link">Next</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

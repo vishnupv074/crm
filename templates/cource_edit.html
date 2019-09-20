@@ -1,0 +1,27 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="card">
+<div class="card-body">
+    <form class="forms-sample" method="post"> {% csrf_token %}
+        <div class="form-group">
+            <label for="CourceName">Name of Course</label>
+            <input type="text" class="form-control" name="CourceName" id="CourceName"  value='{{ cource.name }}' required>
+        </div>
+        <div class="form-group">
+            <label for="CourceType">Type</label>
+            <input type="text" class="form-control" name="CourceType" id="CourceType"  value='{{ cource.type }}'>
+        </div>
+        <div class="form-group">
+            <label for="CourceDescription">Description</label>
+            <textarea id="CourceDescription" name="CourceDescription"  class="form-control" rows="10">{{ cource.description}}</textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mr-2">Submit</button>
+        <a href="/master/cource_view"> <button class="btn btn-light">Cancel</button></a>
+    </form>
+</div>
+</div>
+
+{% endblock %}

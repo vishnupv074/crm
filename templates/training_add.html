@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="card">
+<div class="card-body">
+    <form class="forms-sample" method="post"> {% csrf_token %}
+        <div class="form-group">
+            <label for="TrainingName">Name</label>
+            <input type="text" class="form-control" name="TrainingName" id="TrainingName" placeholder="Name of Course" required>
+        </div>
+        <div class="form-group">
+            <label for="TrainingType">Type</label>
+            <input type="text" class="form-control" name="TrainingType" id="TrainingType" placeholder="Type">
+        </div><div class="form-group">
+            <label for="TrainingFee">Fee</label>
+            <input type="number" class="form-control" name="TrainingFee" id="TrainingFee" placeholder="Fee">
+        </div>
+        <div class="form-group">
+            <label for="TrainingDescription">Description</label>
+            <textarea id="TrainingDescription" name="TrainingDescription" class="form-control" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mr-2">Submit</button>
+        <a href="/master/training_view"><button class="btn btn-light">Cancel</button></a>
+    </form>
+</div>
+</div>
+
+{% endblock %}

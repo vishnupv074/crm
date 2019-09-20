@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38ace439-7904-4440-95c3-ad341f9d52a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/crm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/crm/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/auth/lockscreen-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/auth/login-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/auth/register-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel/banner_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel/banner_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel/banner_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel/banner_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel/banner_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel/banner_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel/banner_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel/banner_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel/banner_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel/banner_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel/banner_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel/banner_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/faces/face9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/lightbox/play-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/lightbox/thumb-v-v-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/lightbox/thumb-v-v-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/lightbox/thumb-v-y-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/lightbox/thumb-v-y-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/1280x768/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/1280x768/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/1280x768/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/1280x768/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/1280x768/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/1280x768/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/1280x768/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/1280x768/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/1280x768/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/1280x768/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/1280x768/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/1280x768/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/10-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/12-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/samples/300x300/9.jpg" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="crm/invalid/Django" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectId" id="1OlOs3g2oFHFUZHoO8m7EjwjB7v" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="crm" type="Python.DjangoServer" factoryName="Django server">
+      <module name="crm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="crm.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38ace439-7904-4440-95c3-ad341f9d52a2" name="Default Changelist" comment="" />
+      <created>1563942350690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563942350690</updated>
+      <workItem from="1563942352814" duration="678000" />
+      <workItem from="1563947956728" duration="1471000" />
+      <workItem from="1564113722897" duration="1312000" />
+      <workItem from="1564200844540" duration="4067000" />
+      <workItem from="1564458233428" duration="3833000" />
+      <workItem from="1564547303237" duration="566000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added dashboard, Instituion view, Instituion adding page ,login page">
+      <created>1564641096973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564641096973</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added Cource view, cource edit, cource add, cource delete">
+      <created>1564652258078</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564652258078</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added Cource view, cource edit, cource add, cource delete">
+      <created>1564660606387</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564660606387</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added every model. added templates">
+      <created>1564750402352</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564750402352</updated>
+    </task>
+    <task id="LOCAL-00005" summary="template links and side bar modified">
+      <created>1565093002441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565093002441</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11927000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added dashboard, Instituion view, Instituion adding page ,login page" />
+    <MESSAGE value="added Cource view, cource edit, cource add, cource delete" />
+    <MESSAGE value="added every model. added templates" />
+    <MESSAGE value="template links and side bar modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="template links and side bar modified" />
+  </component>
+</project>

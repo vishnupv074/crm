@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="card">
+<div class="card-body">
+    <form class="forms-sample" method="post"> {% csrf_token %}
+        <div class="form-group">
+            <label for="CourceName">Cource Name</label>
+            <input type="text" class="form-control" name="CourceName" id="CourceName" placeholder="Name of Cource" required>
+        </div>
+        <div class="form-group">
+            <label for="CourceType">Type</label>
+            <input type="text" class="form-control" name="CourceType" id="CourceType" placeholder="Type">
+        </div>
+        <div class="form-group">
+            <label for="CourceDescription">Description</label>
+            <textarea id="CourceDescription" name="CourceDescription" class="form-control" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mr-2">Submit</button>
+        <a href="/master/cource_view"> <button class="btn btn-light">Cancel</button></a>
+    </form>
+</div>
+</div>
+
+{% endblock %}

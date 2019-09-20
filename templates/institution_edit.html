@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="card">
+<div class="card-body">
+    <form class="forms-sample" method="post"> {% csrf_token %}
+        <div class="form-group">
+            <label for="InstitutionName">Name of Institution</label>
+            <input type="text" class="form-control" name="InstitutionName" id="InstitutionName" value='{{institute.name}}' required>
+        </div>
+        <div class="form-group">
+            <label for="InstitutionUniversity">University</label>
+            <input type="text" class="form-control" name="InstitutionUniversity" id="InstitutionUniversity" value='{{institute.university}}'>
+        </div>
+        <div class="form-group">
+            <label for="InstitutionContact">Contact Number</label>
+            <input type="Number" minlength="10" name="InstitutionContact" class="form-control" id="InstitutionContact" value='{{institute.contact_number}}'>
+        </div>
+        <div class="form-group">
+            <label for="InstitutionEmail">Email</label>
+            <input type="email" name="InstitutionEmail" class="form-control" id="InstitutionEmail" value='{{institute.email}}'>
+        </div>
+        <div class="form-group">
+            <label for="InstitutionWebsite">Website</label>
+            <input type="url" name="InstitutionWebsite" class="form-control" id="InstitutionWebsite" value='{{institute.website}}'>
+        </div>
+        <div class="form-group">
+            <label for="InstitutionAddress">Address</label>
+            <textarea id="InstitutionAddress" name="InstitutionAddress" value='{{institute.address}}' class="form-control" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mr-2">Submit</button>
+        <a href="/master/datatable"><button class="btn btn-light">Cancel</button></a>
+    </form>
+</div>
+</div>
+
+{% endblock %}
